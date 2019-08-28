@@ -1,0 +1,19 @@
+---
+title: "Interacive Plot: Volcano surface"
+author: "Carlos Martinez"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+require(plotly)
+```
+
+## August 3, 2019
+
+
+```{r messages=FALSE,echo=FALSE,warning=FALSE, error=FALSE}
+data(volcano)
+plot_ly(z = ~volcano) %>% add_surface()
+```
+
