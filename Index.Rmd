@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 require(plotly)
 ```
 
-## August 3, 2019
+## August 27, 2019
 
 
 ```{r messages=FALSE,echo=FALSE,warning=FALSE, error=FALSE}
